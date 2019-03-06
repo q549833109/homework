@@ -218,12 +218,14 @@ margin-left: 16px;
 font-weight: 1000;
 float: left;
 margin-top: 12px;
+ color: #31c6c6;
 }
 .p-dibanpingjia{
 font-size: 12px;
 float: left;
 padding-top: 2px;
 margin-top: 12px;
+color: #31c6c6
 
 
 
@@ -232,8 +234,15 @@ margin-top: 12px;
 margin-right: 0;
 }
 .div-liebiaoxiang:hover{
-color: #ffa700;
+color: #ffa700  ; 
 }
+.div-liebiaoxiang:hover .p-dibanpingji{
+    color: #ffa700 
+}
+.div-liebiaoxiang:hover .p-dibanpingjia{
+    color: #ffa700 
+}
+
 .div-fanye-inbox{
 width: 1000px;
 margin-left: auto;

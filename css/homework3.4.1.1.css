@@ -36,12 +36,12 @@
 .denglu-div{
     width: 400px;
     height: 524px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     float: left;
     position: absolute;
-    overflow: hidden;
     right: 395px;
     top: 32px;
+    overflow: hidden;
 
 }
 a,i{
@@ -68,6 +68,11 @@ display: inline-block;
     border: none;
     border-right: 1px solid #e0e0e0;
     background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    right:200px;
 }
 .shaomadenglu{
     width: 200px;
@@ -76,6 +81,11 @@ display: inline-block;
     border: none;
     border-left: 1px solid #e0e0e0;
     background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    left: 200px;
 }
 .zhanghao-input{
     width: 338px;
@@ -101,4 +111,32 @@ display: inline-block;
     left: 30px;
     top: 231px; 
     background-color: #f56600;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.zhuce-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    right:200px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    color: #666666;
+    text-decoration: none;
+
+
+}
+.wangji-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    left: 200px;
+    padding-left: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+.other-div{
+
 }
