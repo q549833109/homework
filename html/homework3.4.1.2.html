@@ -16,29 +16,62 @@
     </div> 
         <div class="background-img" >
             <div class="denglu-div" >
-                <button class="zhanghaodenglu" >账号登录</button>
+                <button class="zhanghaodenglu dianjiyanse" >帐号登录</button>
                  <button class="shaomadenglu" >扫码登录</button>
-                 <input class="zhanghao-input"  type="text"  placeholder="邮箱/" >
-                 <input class="mima-input"  type="password" placeholder="密码" >
-                 <button class="lijidenglu" > 立即登录 </button>
-                 <a  class="shouji-a" href="#">手机短信登录/注册</a>
-                 <a class="zhuce-a"  href="#">立即注册</a>
-                 <a  class="wangji-a" href="#">忘记密码？</a>
+                 
+                 <div id="denglu-zhdl" >
+                    <input class="zhanghao-input"  type="text"  placeholder="邮箱/手机号码/小米ID" >
+                    <input class="mima-input"  type="password" placeholder="密码" >
+                    <button class="lijidenglu" > 立即登录 </button>
+                    <a  class="shouji-a" href="#">手机短信登录/注册</a>
+                    <a class="zhuce-a"  href="#">立即注册</a>
+                    <a  class="wangji-a" href="#">忘记密码？</a>
                 
-                 <div class="other-div" >
-                    <p class="other-p" >其他方式登录</p>
-                        <div class="other-div-box" >
+                    <div class="other-div" >
+                        <p class="other-p" >其他方式登录</p>
+                            <div class="other-div-box" >
 
-                            <a class="qita-a qq-bc " href=""><i class="qq" > </i></a>
-                             <a class="qita-a weibo-bc" href=""><i class="weibo" > </i></a>
-                             <a class="qita-a zhifubao-bc " href=""><i class="zhifubao" > </i></a>
-                             <a class="qita-a  weixin-bc" href=""><i class="weixin" > </i></a>
-                        </div>
+                                <a class="qita-a qq-bc " href=""><i class="qq" > </i></a>
+                                 <a class="qita-a weibo-bc" href=""><i class="weibo" > </i></a>
+                                <a class="qita-a zhifubao-bc " href=""><i class="zhifubao" > </i></a>
+                                <a class="qita-a  weixin-bc" href=""><i class="weixin" > </i></a>
+                            </div>
+                    </div>
                 </div>
-            
+                <div id="denglu-sm" >
+                    <img src="../images/下载.png" alt="">
+                    <div class="shiyong-div" >
+                        <p class="shiyong-p" >使用<span>小米商城App</span>扫一扫</p>
+                        <p class="xmzh-p" >小米手机可打开「设置」>「小米帐号」扫码登录</p>
+
+                    </div>
+
+                </div>
                             
-             </div>
-                
+            </div>
+         <script>
+             $("#denglu-sm").hide();
+            //  $("shaomadenglu").click(function(){
+            //      $("#denglu-sm").show();
+            //  })
+             $(".zhanghaodenglu").click(function(){
+                 
+                $(".zhanghaodenglu").addClass('dianjiyanse').siblings().removeClass('dianjiyanse');
+                $("#denglu-zhdl").show();
+                $("#denglu-sm").hide();
+                return;
+
+             });
+             $(".shaomadenglu").click(function(){
+                 $(".shaomadenglu").addClass('dianjiyanse').siblings().removeClass('dianjiyanse');
+                 $("#denglu-sm").show()
+                 $("#denglu-zhdl").hide();
+                 return;
+             })
+
+
+
+         </script>       
                 
                    
 

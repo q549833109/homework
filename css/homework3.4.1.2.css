@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif
+}
 .top-logo-div {
     width: 200px;
     height: 98px;
@@ -60,7 +63,8 @@ display: inline-block;
     color: #666666;
     position: absolute;
     top: 29px;
-    right:200px;
+    right:205px;
+    
 }
 .shaomadenglu{
     width: 200px;
@@ -73,7 +77,7 @@ display: inline-block;
     color: #666666;
     position: absolute;
     top: 29px;
-    left: 200px;
+    left: 205px;
 }
 .zhanghao-input{
     width: 338px;
@@ -140,7 +144,7 @@ display: inline-block;
     height: 80px;
     right: 30px;
     bottom: 0;
-    border-top: 1px solid #333
+    border-top: 1px solid  #757575;
     
 }
 .other-div-box{
@@ -209,6 +213,7 @@ display: inline-block;
     background-color: #fff;
     right: 50%;
     margin-right: -42px;
+    color: #757575
 }
 .foot{
     position: relative;
@@ -234,4 +239,44 @@ display: inline-block;
     padding: 10px;
     color: #757575;
     font-size: 14px;
+}
+#denglu-sm{
+    height: 442px;
+    width: 410px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    bottom: -82px;
+}
+
+#denglu-sm>img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -90px;
+    overflow: hidden;
+
+}
+.dianjiyanse{
+    color: #f56600;
+}
+.shiyong-div{
+    width: 305px;
+    height: 38px;
+    float: left;
+    position: relative;
+    left:52.5px;
+    top: 326px;
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+}
+button:focus{
+    outline: none;
+    }
+.shiyong-p>span{
+    color: #f56600;
 }
