@@ -73,7 +73,7 @@ body{
     background-color: #fff;
     border: 1px solid #cccccc;
     position: relative;
-    top: -1px;
+    top: 0px;
     right: 10px;
 
 }
@@ -471,8 +471,8 @@ border-bottom: 1px solid #cccccc;
 .shimuhougai-div1{
     width: 310px;
     height: 355px;
-    border: 1px solid #cccccc;
-    border-top: none;
+    /* border: 1px solid #cccccc; */
+    border: none;
     
     overflow: hidden;
     background-image: url(../images/homework3.9.1.1\ images/baohuke.png) ;
@@ -489,6 +489,7 @@ border-bottom: 1px solid #cccccc;
     height: 355px;
     border: 1px solid #cccccc;
     border-top: none;
+    border-right: none;
     
     overflow: hidden;
     background-image: url(../images/homework3.9.1.1\ images/T1DrL_B4CT1RXrhCrK!220x220.jpg) ;
