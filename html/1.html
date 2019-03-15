@@ -7,24 +7,25 @@
     <title>Document</title>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <style>
-    .style{
-        color: aqua;
-    }
-    div{
-        width: min-content;
-        background-color: #333333;
-        color: #fff;
-    }
+        .class555{
+            background-color:red;
+        }
     </style>
 </head>
 <body>
     
 
-    <div>
-        aaaaaaaaaaaaaaaa
+    <div id="div1" >
+       
     </div>
+    <button id="button11" >22</button>
    
-     
+     <script>
+     $("#button11").click(function(){
+    $("#div1").load("11111.txt");
+    console.log("load")
+});
+     </script>
   
 </body>
 
